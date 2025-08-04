@@ -2,6 +2,9 @@ import asyncio
 import yaml
 from telegram import Bot
 
+__author__ = 'Mateus Marques'
+__version__ = '1.0'
+
 with open("config.yaml") as f:
     config = yaml.load(f, Loader=yaml.FullLoader)
 
