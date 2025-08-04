@@ -1,13 +1,3 @@
-
-## Instalação
-
-Instalação do projeto
-
-```bash
-  npm install my-project
-  cd my-project
-```
-    
 ## Rodando localmente
 
 Clone o projeto
