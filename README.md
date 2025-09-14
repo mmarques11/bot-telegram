@@ -42,7 +42,7 @@ async def print_chat_id(update, context):
     print("Chat ID:", update.message.chat_id)
 
 def main():
-    app = ApplicationBuilder().token('8393626463:AAE9SMMmwQM0X8bm_atNj1mgmShoXyeesFY').build()
+    app = ApplicationBuilder().token('{seu_token}').build()
 
     handler = MessageHandler(filters.TEXT & (~filters.COMMAND), print_chat_id)
     app.add_handler(handler)
